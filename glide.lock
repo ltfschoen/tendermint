@@ -1,5 +1,5 @@
-hash: d653c37b0fde4220158dcb61dcbe54501b951b26f0a5b6bd345b3f809ac3b1d0
-updated: 2018-01-30T07:56:33.571668021Z
+hash: cb5df3e6de11bb29764b25364c83fe999fa01eb57ea5bb7e3616c0c3ed002f3b
+updated: 2018-02-01T14:03:39.084404746Z
 imports:
 - name: github.com/btcsuite/btcd
   version: 2e60448ffcc6bf78332d1fe590260095f554dd78
@@ -17,12 +17,6 @@ imports:
   - log/term
 - name: github.com/go-logfmt/logfmt
   version: 390ab7935ee28ec6b286364bba9b4dd6410cb3d5
-- name: github.com/go-playground/locales
-  version: e4cbcb5d0652150d40ad0646651076b6bd2be4f6
-  subpackages:
-  - currency
-- name: github.com/go-playground/universal-translator
-  version: 71201497bace774495daed26a3874fd339e0b538
 - name: github.com/go-stack/stack
   version: 259ab82a6cad3992b4e21ff5cac294ccb06474bc
 - name: github.com/gogo/protobuf
@@ -125,11 +119,11 @@ imports:
   - data/base58
   - nowriter/tmlegacy
 - name: github.com/tendermint/iavl
-  version: 594cc0c062a7174475f0ab654384038d77067917
+  version: a2b6fe70655bc372fdf32657e0bf7bf5fadc3ba4
   subpackages:
   - iavl
 - name: github.com/tendermint/tmlibs
-  version: 15e51fa76086a3c505f227679c2478043ae7261b
+  version: 9bbb72417440f54042980eb9d6837dfbbe6831fb
   subpackages:
   - autofile
   - cli
@@ -198,8 +192,6 @@ imports:
   - status
   - tap
   - transport
-- name: gopkg.in/go-playground/validator.v9
-  version: 61caf9d3038e1af346dbf5c2e16f6678e1548364
 - name: gopkg.in/yaml.v2
   version: 287cf08546ab5e7e37d55a84f7ed3fd1db036de5
 testImports:
@@ -207,6 +199,8 @@ testImports:
   version: 04cdfd42973bb9c8589fd6a731800cf222fde1a9
   subpackages:
   - spew
+- name: github.com/fortytw2/leaktest
+  version: 3b724c3d7b8729a35bf4e577f71653aec6e53513
 - name: github.com/pmezard/go-difflib
   version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
   subpackages:
@@ -216,5 +210,3 @@ testImports:
   subpackages:
   - assert
   - require
-- name: github.com/fortytw2/leaktest
-  version: 3b724c3d7b8729a35bf4e577f71653aec6e53513

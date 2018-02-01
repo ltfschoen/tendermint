@@ -30,11 +30,11 @@ import:
   subpackages:
   - data
 - package: github.com/tendermint/iavl
-  version: ~0.2.0
+  version: develop
   subpackages:
   - iavl
 - package: github.com/tendermint/tmlibs
-  version: v0.6.1
+  version: 9bbb72417440f54042980eb9d6837dfbbe6831fb
   subpackages:
   - autofile
   - cli
